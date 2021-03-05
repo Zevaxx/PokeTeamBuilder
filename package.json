@@ -1,0 +1,25 @@
+{
+  "name": "poketeambuilder",
+  "version": "1.0.0",
+  "description": "Pokemon Team Builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zevaxx/PokeTeamBuilder.git"
+  },
+  "keywords": [
+    "pokemon",
+    "team",
+    "builder",
+    "types"
+  ],
+  "author": "Sebastián Díaz Flores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zevaxx/PokeTeamBuilder/issues"
+  },
+  "homepage": "https://github.com/Zevaxx/PokeTeamBuilder#readme"
+}
