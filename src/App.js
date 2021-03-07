@@ -1,5 +1,17 @@
 import React from 'react';
+import { GlobalStyle } from './styles/GlobalStyles';
+import { Logo } from './components/Logo';
+import { Home } from './components/Home';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 export const App = () => (
-  <h1>Hola! mi primer proyecto!</h1>
+  <>
+    <BrowserRouter>
+      <GlobalStyle />
+      <Logo />
+      <Switch>
+        <Route path='/' component={Home} />
+      </Switch>
+    </BrowserRouter>
+  </>
 );
