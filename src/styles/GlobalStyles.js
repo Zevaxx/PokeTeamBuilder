@@ -20,4 +20,13 @@ button { background: transparent; border: 0; outline: 0 }
   min-height: 100vh;
   padding-bottom: 10px;
 }
+
+body {
+  background: #fefefe;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1200px;
+  overscroll-behavior: none;
+  width: 100%; 
+};
 `;
