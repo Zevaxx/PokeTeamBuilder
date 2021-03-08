@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import PokeBg from '../components/assets/Pokebg.png';
 
 export const GlobalStyle = createGlobalStyle`
 html {
@@ -22,11 +23,11 @@ button { background: transparent; border: 0; outline: 0 }
 }
 
 body {
-  background: #fefefe;
   height: 100vh;
   margin: 0 auto;
   max-width: 1200px;
   overscroll-behavior: none;
-  width: 100%; 
+  width: 100%;
+  background:url("${PokeBg}");
 };
 `;
