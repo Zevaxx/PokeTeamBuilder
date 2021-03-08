@@ -16,8 +16,7 @@ export const Search = () => {
         placeholder='Busca en PokeTeamBuilder'
         onFocus={(e) => e.target.placeholder = ''}
         onBlur={(e) => e.target.placeholder = 'Busca en PokeTeamBuilder'}
-      >asd
-      </Input>
+      />
       <img src={SearchIcon} alt='Search Icon' />
       <Select
         options={options}
