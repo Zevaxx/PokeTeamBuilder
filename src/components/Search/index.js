@@ -1,6 +1,6 @@
 import React from 'react';
-import { Input, Div } from './styles';
-import Select from 'react-select';
+import { Input, Div, Select } from './styles';
+import SearchIcon from 'pokemon-assets/assets/img/symbols/ui-search.png';
 
 export const Search = () => {
   const options = [
@@ -11,8 +11,19 @@ export const Search = () => {
 
   return (
     <Div>
-      <Input type='text' placeholder='Busca en Poke Team Builder' />
-      <Select options={options} />
+      <Input
+        type='text'
+        placeholder='Busca en PokeTeamBuilder'
+        onFocus={(e) => e.target.placeholder = ''}
+        onBlur={(e) => e.target.placeholder = 'Busca en PokeTeamBuilder'}
+      >asd
+      </Input>
+      <img src={SearchIcon} alt='Search Icon' />
+      <Select
+        options={options}
+        classNamePrefix='search-select'
+        defaultValue={{ value: 'all', label: 'All' }}
+      />
     </Div>
   );
 };
