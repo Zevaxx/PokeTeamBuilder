@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import PokeBg from '../components/assets/Pokebg.png';
+import PokeBg from '../assets/Pokebg.png';
 
 export const GlobalStyle = createGlobalStyle`
 html {

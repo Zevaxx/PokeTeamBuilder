@@ -1,7 +1,7 @@
 import React from 'react';
-import { GlobalStyle } from './styles/GlobalStyles';
+import { GlobalStyle } from './styles/GlobalStyle';
 import { Logo } from './components/Logo';
-import { Home } from './components/Home';
+import { Home } from './pages/Home';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Search } from './components/Search';
 

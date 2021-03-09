@@ -1,6 +1,6 @@
 import React from 'react';
 import { PokeLogo, LogoMod, Link } from './styles';
-import PokeLogoImg from '../assets/PokeLogo.svg';
+import PokeLogoImg from '../../assets/PokeLogo.svg';
 
 export const Logo = (props) => {
   return (

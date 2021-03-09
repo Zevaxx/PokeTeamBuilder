@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import LogoFrame from '../assets/LogoFrame.svg';
+import LogoFrame from '../../assets/LogoFrame.svg';
 import { Link as LinkRouter } from 'react-router-dom';
 
 export const Link = styled(LinkRouter)`
