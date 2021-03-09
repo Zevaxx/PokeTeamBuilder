@@ -346,18 +346,51 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"App\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _styles_GlobalStyles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/GlobalStyles */ \"./src/styles/GlobalStyles.js\");\n/* harmony import */ var _components_Logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Logo */ \"./src/components/Logo/index.js\");\n/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Home */ \"./src/components/Home/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router/esm/react-router.js\");\n/* harmony import */ var _components_Search__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Search */ \"./src/components/Search/index.js\");\n\n\n\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_GlobalStyles__WEBPACK_IMPORTED_MODULE_1__.GlobalStyle, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Logo__WEBPACK_IMPORTED_MODULE_2__.Logo, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Search__WEBPACK_IMPORTED_MODULE_4__.Search, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {\n    path: \"/\",\n    component: _components_Home__WEBPACK_IMPORTED_MODULE_3__.Home\n  }))));\n};\n\n//# sourceURL=webpack://poketeambuilder/./src/App.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"App\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _styles_GlobalStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/GlobalStyle */ \"./src/styles/GlobalStyle.js\");\n/* harmony import */ var _components_Logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Logo */ \"./src/components/Logo/index.js\");\n/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Home */ \"./src/pages/Home.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router/esm/react-router.js\");\n/* harmony import */ var _components_Search__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Search */ \"./src/components/Search/index.js\");\n\n\n\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles_GlobalStyle__WEBPACK_IMPORTED_MODULE_1__.GlobalStyle, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Logo__WEBPACK_IMPORTED_MODULE_2__.Logo, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Search__WEBPACK_IMPORTED_MODULE_4__.Search, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {\n    path: \"/\",\n    component: _pages_Home__WEBPACK_IMPORTED_MODULE_3__.Home\n  }))));\n};\n\n//# sourceURL=webpack://poketeambuilder/./src/App.js?");
 
 /***/ }),
 
-/***/ "./src/components/Home/index.js":
-/*!**************************************!*\
-  !*** ./src/components/Home/index.js ***!
-  \**************************************/
+/***/ "./src/components/Chosen/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Chosen/index.js ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Home\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar Home = function Home() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Hola! Estoy empezando este proyecto\");\n};\n\n//# sourceURL=webpack://poketeambuilder/./src/components/Home/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Chosen\": () => (/* binding */ Chosen)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ \"./src/components/Chosen/styles.js\");\n/* harmony import */ var pokemon_assets_assets_img_pokemon_pikachu_libre_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! pokemon-assets/assets/img/pokemon/pikachu-libre.png */ \"./node_modules/pokemon-assets/assets/img/pokemon/pikachu-libre.png\");\n\n\n\nvar Chosen = function Chosen() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__.Div, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__.Img, {\n    src: pokemon_assets_assets_img_pokemon_pikachu_libre_png__WEBPACK_IMPORTED_MODULE_2__.default,\n    alt: \"\"\n  })));\n};\n\n//# sourceURL=webpack://poketeambuilder/./src/components/Chosen/index.js?");
+
+/***/ }),
+
+/***/ "./src/components/Chosen/styles.js":
+/*!*****************************************!*\
+  !*** ./src/components/Chosen/styles.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Div\": () => (/* binding */ Div),\n/* harmony export */   \"Img\": () => (/* binding */ Img)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\n/* harmony import */ var _assets_PokeTerrain_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../assets/PokeTerrain.png */ \"./src/assets/PokeTerrain.png\");\nvar _templateObject, _templateObject2;\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\n\nvar Div = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\n  background-image: url(\", \");\\n  background-size: contain;\\n  background-repeat:no-repeat;\\n  background-position: center bottom ;\\n  width: 160px;\\n  height: 210px;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n\"])), _assets_PokeTerrain_png__WEBPACK_IMPORTED_MODULE_0__.default);\nvar Img = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.img(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral([\"\\n  width: 220px;\\n\"])));\n\n//# sourceURL=webpack://poketeambuilder/./src/components/Chosen/styles.js?");
+
+/***/ }),
+
+/***/ "./src/components/ListOfChosen/ListOfChosen.js":
+/*!*****************************************************!*\
+  !*** ./src/components/ListOfChosen/ListOfChosen.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ListOfChosen\": () => (/* binding */ ListOfChosen)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Chosen__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Chosen */ \"./src/components/Chosen/index.js\");\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles */ \"./src/components/ListOfChosen/styles.js\");\n\n\n\nvar ListOfChosen = function ListOfChosen() {\n  var chosens = [1, 2, 3, 4, 5, 6];\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_2__.Div, null, chosens.map(function (chosen) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Chosen__WEBPACK_IMPORTED_MODULE_1__.Chosen, {\n      key: chosen\n    });\n  }));\n};\n\n//# sourceURL=webpack://poketeambuilder/./src/components/ListOfChosen/ListOfChosen.js?");
+
+/***/ }),
+
+/***/ "./src/components/ListOfChosen/styles.js":
+/*!***********************************************!*\
+  !*** ./src/components/ListOfChosen/styles.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Div\": () => (/* binding */ Div)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nvar _templateObject;\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar Div = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\n  display: flex;\\n  justify-content: space-between;\\n  flex-wrap: wrap;\\n\"])));\n\n//# sourceURL=webpack://poketeambuilder/./src/components/ListOfChosen/styles.js?");
 
 /***/ }),
 
@@ -368,7 +401,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Logo\": () => (/* binding */ Logo)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ \"./src/components/Logo/styles.js\");\n/* harmony import */ var _assets_PokeLogo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/PokeLogo.svg */ \"./src/components/assets/PokeLogo.svg\");\n\n\n\nvar Logo = function Logo(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__.Link, {\n    to: \"/\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__.PokeLogo, {\n    src: _assets_PokeLogo_svg__WEBPACK_IMPORTED_MODULE_2__.default,\n    alt: \"Logo Pokemon\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__.LogoMod, null, \"Team Builder\"));\n};\n\n//# sourceURL=webpack://poketeambuilder/./src/components/Logo/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Logo\": () => (/* binding */ Logo)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles */ \"./src/components/Logo/styles.js\");\n/* harmony import */ var _assets_PokeLogo_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/PokeLogo.svg */ \"./src/assets/PokeLogo.svg\");\n\n\n\nvar Logo = function Logo(props) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__.Link, {\n    to: \"/\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__.PokeLogo, {\n    src: _assets_PokeLogo_svg__WEBPACK_IMPORTED_MODULE_2__.default,\n    alt: \"Logo Pokemon\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_styles__WEBPACK_IMPORTED_MODULE_1__.LogoMod, null, \"Team Builder\"));\n};\n\n//# sourceURL=webpack://poketeambuilder/./src/components/Logo/index.js?");
 
 /***/ }),
 
@@ -379,7 +412,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Link\": () => (/* binding */ Link),\n/* harmony export */   \"PokeLogo\": () => (/* binding */ PokeLogo),\n/* harmony export */   \"LogoMod\": () => (/* binding */ LogoMod)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\n/* harmony import */ var _assets_LogoFrame_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/LogoFrame.svg */ \"./src/components/assets/LogoFrame.svg\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nvar _templateObject, _templateObject2, _templateObject3;\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\n\n\nvar Link = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link)(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\n  text-decoration: none;\\n  display:flex;\\n  flex-wrap: nowrap;\\n  justify-content: center;\\n\"])));\nvar PokeLogo = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.img(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral([\"\\n  margin: -60px 0;\\n  @media (max-width: 768px) {\\n    width: 300px;\\n  }\\n\"])));\nvar LogoMod = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.span(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral([\"\\n  background-image: url(\\\"\", \"\\\"), radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(255,255,255,0) 80%);\\n  background-size: cover;\\n  width: 250px;\\n  height: 170px;\\n  display:flex;\\n  justify-content:center;\\n  align-items:center;\\n  margin-left: -180px;\\n  transform: rotate(7deg);\\n  font-size: 1.8rem;\\n  font-weight: 800;\\n  white-space:nowrap;\\n  color: #000;\\n  @media (max-width: 768px) {\\n    width: 150px;\\n    height:100px;\\n    margin-left: -128px;\\n    font-size: 1.2rem;\\n  }\\n\"])), _assets_LogoFrame_svg__WEBPACK_IMPORTED_MODULE_0__.default);\n\n//# sourceURL=webpack://poketeambuilder/./src/components/Logo/styles.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Link\": () => (/* binding */ Link),\n/* harmony export */   \"PokeLogo\": () => (/* binding */ PokeLogo),\n/* harmony export */   \"LogoMod\": () => (/* binding */ LogoMod)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\n/* harmony import */ var _assets_LogoFrame_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../assets/LogoFrame.svg */ \"./src/assets/LogoFrame.svg\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nvar _templateObject, _templateObject2, _templateObject3;\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\n\n\nvar Link = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.default)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link)(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\n  text-decoration: none;\\n  display:flex;\\n  flex-wrap: nowrap;\\n  justify-content: center;\\n\"])));\nvar PokeLogo = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.img(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral([\"\\n  margin: -60px 0;\\n  @media (max-width: 768px) {\\n    width: 300px;\\n  }\\n\"])));\nvar LogoMod = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.span(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral([\"\\n  background-image: url(\\\"\", \"\\\"), radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(255,255,255,0) 80%);\\n  background-size: cover;\\n  width: 250px;\\n  height: 170px;\\n  display:flex;\\n  justify-content:center;\\n  align-items:center;\\n  margin-left: -180px;\\n  transform: rotate(7deg);\\n  font-size: 1.8rem;\\n  font-weight: 800;\\n  white-space:nowrap;\\n  color: #000;\\n  @media (max-width: 768px) {\\n    width: 150px;\\n    height:100px;\\n    margin-left: -128px;\\n    font-size: 1.2rem;\\n  }\\n\"])), _assets_LogoFrame_svg__WEBPACK_IMPORTED_MODULE_0__.default);\n\n//# sourceURL=webpack://poketeambuilder/./src/components/Logo/styles.js?");
 
 /***/ }),
 
@@ -416,14 +449,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
-/***/ "./src/styles/GlobalStyles.js":
-/*!************************************!*\
-  !*** ./src/styles/GlobalStyles.js ***!
-  \************************************/
+/***/ "./src/pages/Home.js":
+/*!***************************!*\
+  !*** ./src/pages/Home.js ***!
+  \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"GlobalStyle\": () => (/* binding */ GlobalStyle)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\n/* harmony import */ var _components_assets_Pokebg_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/assets/Pokebg.png */ \"./src/components/assets/Pokebg.png\");\nvar _templateObject;\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\n\nvar GlobalStyle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\nhtml {\\n  box-sizing: border-box;\\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n}\\n\\n*, *:before, *:after {\\n  box-sizing: inherit;\\n}\\n\\nul, li, h1, h2, h3, p, button { margin: 0; padding: 0; }\\nul { list-style: none; }\\nbutton { background: transparent; border: 0; outline: 0 }\\n\\n#app {\\n  box-shadow: 0 0 10px rgba(0, 0, 0, .05);\\n  overflow-x: hidden;\\n  min-height: 100vh;\\n  padding-bottom: 10px;\\n}\\n\\nbody {\\n  height: 100vh;\\n  margin: 0 auto;\\n  max-width: 1200px;\\n  overscroll-behavior: none;\\n  width: 100%;\\n  background:url(\\\"\", \"\\\");\\n};\\n\"])), _components_assets_Pokebg_png__WEBPACK_IMPORTED_MODULE_0__.default);\n\n//# sourceURL=webpack://poketeambuilder/./src/styles/GlobalStyles.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Home\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _components_ListOfChosen_ListOfChosen__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/ListOfChosen/ListOfChosen */ \"./src/components/ListOfChosen/ListOfChosen.js\");\n\n\nvar Home = function Home() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ListOfChosen_ListOfChosen__WEBPACK_IMPORTED_MODULE_1__.ListOfChosen, null);\n};\n\n//# sourceURL=webpack://poketeambuilder/./src/pages/Home.js?");
+
+/***/ }),
+
+/***/ "./src/styles/GlobalStyle.js":
+/*!***********************************!*\
+  !*** ./src/styles/GlobalStyle.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"GlobalStyle\": () => (/* binding */ GlobalStyle)\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\n/* harmony import */ var _assets_Pokebg_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/Pokebg.png */ \"./src/assets/Pokebg.png\");\nvar _templateObject;\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\n\nvar GlobalStyle = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral([\"\\nhtml {\\n  box-sizing: border-box;\\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n}\\n\\n*, *:before, *:after {\\n  box-sizing: inherit;\\n}\\n\\nul, li, h1, h2, h3, p, button { margin: 0; padding: 0; }\\nul { list-style: none; }\\nbutton { background: transparent; border: 0; outline: 0 }\\n\\n#app {\\n  box-shadow: 0 0 10px rgba(0, 0, 0, .05);\\n  overflow-x: hidden;\\n  min-height: 100vh;\\n  padding-bottom: 10px;\\n}\\n\\nbody {\\n  height: 100vh;\\n  margin: 0 auto;\\n  max-width: 1200px;\\n  overscroll-behavior: none;\\n  width: 100%;\\n  background:url(\\\"\", \"\\\");\\n};\\n\"])), _assets_Pokebg_png__WEBPACK_IMPORTED_MODULE_0__.default);\n\n//# sourceURL=webpack://poketeambuilder/./src/styles/GlobalStyle.js?");
+
+/***/ }),
+
+/***/ "./node_modules/pokemon-assets/assets/img/pokemon/pikachu-libre.png":
+/*!**************************************************************************!*\
+  !*** ./node_modules/pokemon-assets/assets/img/pokemon/pikachu-libre.png ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"50bd1b09204f5e84f78bcd26e29034cc.png\");\n\n//# sourceURL=webpack://poketeambuilder/./node_modules/pokemon-assets/assets/img/pokemon/pikachu-libre.png?");
 
 /***/ }),
 
@@ -438,14 +493,25 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/components/assets/Pokebg.png":
-/*!******************************************!*\
-  !*** ./src/components/assets/Pokebg.png ***!
-  \******************************************/
+/***/ "./src/assets/PokeTerrain.png":
+/*!************************************!*\
+  !*** ./src/assets/PokeTerrain.png ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"dc45b112b71cf77a3f964b82b4346f4f.png\");\n\n//# sourceURL=webpack://poketeambuilder/./src/components/assets/Pokebg.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"103a4a3b8619769f1f862b24e4120472.png\");\n\n//# sourceURL=webpack://poketeambuilder/./src/assets/PokeTerrain.png?");
+
+/***/ }),
+
+/***/ "./src/assets/Pokebg.png":
+/*!*******************************!*\
+  !*** ./src/assets/Pokebg.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"dc45b112b71cf77a3f964b82b4346f4f.png\");\n\n//# sourceURL=webpack://poketeambuilder/./src/assets/Pokebg.png?");
 
 /***/ }),
 
@@ -929,25 +995,25 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/components/assets/LogoFrame.svg":
-/*!*********************************************!*\
-  !*** ./src/components/assets/LogoFrame.svg ***!
-  \*********************************************/
+/***/ "./src/assets/LogoFrame.svg":
+/*!**********************************!*\
+  !*** ./src/assets/LogoFrame.svg ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c3fdc31ec8fe425cca6461204cb10195.svg\");\n\n//# sourceURL=webpack://poketeambuilder/./src/components/assets/LogoFrame.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c3fdc31ec8fe425cca6461204cb10195.svg\");\n\n//# sourceURL=webpack://poketeambuilder/./src/assets/LogoFrame.svg?");
 
 /***/ }),
 
-/***/ "./src/components/assets/PokeLogo.svg":
-/*!********************************************!*\
-  !*** ./src/components/assets/PokeLogo.svg ***!
-  \********************************************/
+/***/ "./src/assets/PokeLogo.svg":
+/*!*********************************!*\
+  !*** ./src/assets/PokeLogo.svg ***!
+  \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"ae745ee3a44eed76d5bb7df43d151e32.svg\");\n\n//# sourceURL=webpack://poketeambuilder/./src/components/assets/PokeLogo.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"ae745ee3a44eed76d5bb7df43d151e32.svg\");\n\n//# sourceURL=webpack://poketeambuilder/./src/assets/PokeLogo.svg?");
 
 /***/ }),
 
